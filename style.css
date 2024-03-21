@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+   
+   
+}
+.msg-cont{
+    text-align: center;
+}
+#msg{
+
+    font-size: 40px;
+}
+#new-game{
+    font-size: 20px;
+    border:none;
+    background-color: black;
+    color:antiquewhite;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container h2{
+    font-size:60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.game{
+
+    
+    height:500px;
+    width:500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:4px;
+   
+
+}
+.game .box{
+    height:100%;
+    width:100%;
+    font-size: 50px; 
+    background-color: aquamarine;
+     border-radius: 10px;
+     border:none;
+}
